@@ -1,0 +1,78 @@
+body{
+  width: 100%;
+  padding: 0px;
+  
+}
+
+/*MENU DU SITE*/
+.menu{
+  width: 100%;
+  background-color: rgb(134, 130, 188);
+  display: flex;
+  justify-content: space-around;
+  place-items: align;
+  padding: 15px;
+
+}
+
+.menu a{
+  text-decoration: none ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(190, 25, 173);
+}
+
+.menu div:hover{
+  background-color:brown;
+}
+
+.titre{
+  text-align: center;
+  color: rgb(181, 184, 126);
+  margin:70px 0;
+
+}
+.con{
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+.select{
+  background-color: chocolate;
+}
+
+.images{
+ 
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ gap: 2rem;
+ justify-content: center;
+ 
+align-items: center;  
+}
+
+
+.images a{
+  text-decoration: none;
+  color: rgb(245, 230, 220);
+  font: size 13px;
+}
+
+img {
+
+  width: 200px;
+  height: 200px;
+}
+
+.images p:hover{
+  background-color:brown;
+}
+
+
+
+
+.images p{
+  
+  text-align: center;
+  
+}

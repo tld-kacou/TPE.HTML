@@ -1,0 +1,103 @@
+*{
+  padding: 5px;
+}
+
+form{
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  color: blueviolet;
+  display: grid;
+  background-color: azure;
+  
+}
+
+h1{
+  color: brown;
+  
+  text-align: center;
+}
+
+
+label{
+  display: flexbox;
+}
+
+input,select{
+  width:100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #753838;
+  border-radius: 8px;
+  
+}
+
+button{
+  width: 50%;
+  display: grid;
+  padding: 10px 5px;
+  background-color: #4caf4c;
+  color: rgb(39, 55, 238);
+  border:none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 12px;
+  margin-right: 5px;
+  
+}
+
+#nom{
+  margin-left: 50px;
+}
+#prenom{
+  margin-left: 34px;
+}
+#email{
+  margin-left: 45px;
+}
+
+#homme,#femme{
+  width: 50px;
+}
+
+.genre{
+  margin-left: 39px;
+}
+
+#conf{
+  max-width: 85px;
+}
+
+#sub{
+  
+}
+input {
+
+  width: 200px;
+}
+label {
+  display: inline-block;
+}
+
+/* 
+.btn {
+
+  display: flex;
+  flex-direction: row;
+  justify-self:center;
+  
+
+  
+} */
+
+.btn {
+display: grid;
+grid-template-columns: 150px 150px;
+justify-content: end;
+
+}
+
+

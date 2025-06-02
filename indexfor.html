@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>FORMULAIRE D'INSCRIPTION</title>
+</head>
+<body>
+  <h1>FORMULAIRE D'INSCRIPTION</h1>
+  <form action="#" method="post">
+    <div class="d1">
+      <label for="nom">Nom : </label>
+      <input type="text" id="nom" name="nom" placeholder="En majuscule">
+    </div>
+      
+    <div class="d1">
+      <label for="prenom">Prenom :</label>
+      <input type="text " id="prenom" name="prenom" placeholder="En majuscule">
+    </div>
+    
+    <div class="d1">
+      <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
+    </div>
+    
+      
+    <div>
+      <label for="genre">Genre :</label>
+
+      <label  class="genre" for="homme">Homme</label>
+      <input type="radio" id="homme" name="genre" value="homme" required>
+    
+      <label  class="genre" for="femme">Femme</label>
+      <input type="radio" id="femme" name="genre" value="femme">
+    
+    </div>
+    
+    <div>
+      <label for="mot de passe">Mot de passe :</label>
+      <input type="text" id="mot de passe" name="mot de passe" placeholder="" required>
+    </div>
+    
+    <div>
+      <label id="conf" for="confimer mot de passe">Conf. mot de passe :</label>
+      <input type="text" id="confirmer mot de passe" name="confirmer mot de passe" required>
+    </div>
+    
+
+<!--     
+<div class="btn">
+ <span> <button id="sub" type="submit">Valider</button> </span>
+  <span><button id="res" type="reset">Annuler</button></span>
+</div> -->
+
+    
+<div class="btn">
+  <button class="bt" type="submit">Valider</button>
+   <button class="bt"  type="reset">Annuler</button>
+ </div>
+    
+  </form>
+
+  
+</body>
+</html>
